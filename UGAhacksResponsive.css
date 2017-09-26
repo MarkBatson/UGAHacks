@@ -1,0 +1,112 @@
+html {
+  font-family: "Poppins", Verdana, sans-serif;
+  text-align: center;
+}
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+a {
+    color: inherit;
+    outline: inherit;
+    text-decoration: inherit;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  height: 100px;
+}
+
+.UGA-Hacks {
+  width: 100%;
+  margin: auto;
+  /*padding-top: 250px;*/
+}
+
+/* Header Element*/
+h1 {
+  text-align: center;
+  display:inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  background-color: white;
+}
+
+h1:hover {
+  color: red;
+}
+
+.current-page {
+  color: red;
+}
+
+.header {
+  background-color: white;
+  padding-top: 20px;
+  height: 75px;
+}
+
+.header-line {
+  position:absolute;
+  /*width of ABOUT is 75px, adjust in HTML*/
+  margin-top: 5px;
+  border-radius: 20px;
+  height: 1px;
+}
+
+.date {
+  padding-top: 40px;
+  width: 500px;
+  margin: auto;
+  font-family: "Poppins Medium";
+  font-size: 25px;
+}
+
+.team-table {
+  width: 400px;
+  padding-top: 50px; /*5px*/
+  object-fit: cover;
+  transform: scale(2, 2);
+}
+
+.team-table-description {
+  width: 350px;
+  margin: auto;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.register-now {
+  border: 3px solid red;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 200px;
+  margin: auto;
+  margin-top: 100px; /*30px*/
+  padding: 5px;
+  border-radius: 30px;
+  color: red;
+  background-color: white;
+  transition: .2s
+}
+
+.register-now:hover {
+  background-color: red;
+  color: white;
+}
+
+.what-is {
+  margin-top: 200px;
+}
+
+@media (max-width: 780px) {
+  .header {
+    display: none;
+  }
+}

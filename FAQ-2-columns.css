@@ -1,0 +1,52 @@
+.FAQ-flex {
+  display: flex;
+  width: 75%;
+  margin: auto;
+}
+
+.FAQ-column-1 {
+  width: 50%;
+}
+
+.FAQ-column-2 {
+  margin-left: 100px;
+  width: 50%;
+}
+
+.FAQ {
+  width: 100%;
+  /*margin: auto;*/
+  display: flex;
+}
+
+.FAQ-button {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  margin-bottom: 22px;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+.question {
+  margin: 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  /*height: 100px;*/
+  width: 400px;
+  line-height: 40px;
+}
+
+.answer {
+  display: none;
+  margin: auto;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  /*width: 70%;*/
+  text-align: justify;
+}

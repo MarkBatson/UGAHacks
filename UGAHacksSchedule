@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UGA Hacks</title>
+    <link rel="stylesheet" href="UGAhacksStyle.css">
+  </head>
+  <body>
+    <div class = "header">
+      <a href="UGAHacks.html"><h1>ABOUT</h1></a>
+      <h1 class="current-page">SCHEDULE
+        <hr class="header-line" width="100%" color="#ff000d" />
+      </h1>
+      <h1>FAQ</h1>
+      <h1>SPONSORS</h1>
+      <h1>PARTNERS</h1>
+    </div>
+  </body>
+</html>
