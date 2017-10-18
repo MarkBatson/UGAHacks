@@ -1,95 +1,122 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>UGA Hacks</title>
-    <link href='//fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!--<link href='//fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>-->
     <link rel="stylesheet" href="UGAhacksStyle.css">
   </head>
-  <img
-    class = "table-dudes"
-    src = "landing_page/greyscale_image2.jpg"
-    height = 450px;
-  />
-  <img
-    class = "red-logo"
-    src = "landing_page/logo_H.svg"
-    height = 100px;
-  />
   <body>
+    <!-- This first section is the header menu,
+         both normal and colapsed
+      -->
     <div id="header" class = "header">
       <div class = "content">
         <hr class="header-line" id="header-line" color="#ff000d" />
-        <h1 id="0" onClick="reply_click(this.id)">ABOUT
-          <!--<hr class="header-line" width=75px color="#ff000d" />-->
-        </h1>
+        <h1 id="0" onClick="reply_click(this.id)">ABOUT</h1>
         <h1 id="1" onClick="reply_click(this.id)">SCHEDULE</h1>
         <h1 id="2" onClick="reply_click(this.id)">FAQ</h1>
-        <h1 id="3" onClick="reply_click(this.id)">SPONSORS</h1>
-        <h1 id="4" onClick="reply_click(this.id)">PARTNERS</h1>
+        <h1 id="3" onClick="reply_click(this.id)">PARTNERS</h1>
       </div>
     </div>
+    <div id="colapsed-menu-button">
+      <hr class="menu-line" width="35px" color="#D3D3D3" />
+      <hr class="menu-line" width="35px" color="#D3D3D3" />
+      <hr class="menu-line" width="35px" color="#D3D3D3" />
+    </div>
+    <div id="colapsed-menu">
+      <div id="exit-menu">X</div>
+      <h4 id="0" onClick="reply_click(this.id)">ABOUT</h4>
+      <h4 id="1" onClick="reply_click(this.id)">SCHEDULE</h4>
+      <h4 id="2" onClick="reply_click(this.id)">FAQ</h4>
+      <h4 id="3" onClick="reply_click(this.id)">PARTNERS</h4>
+    </div>
+
+    <!-- This section is the content you first see
+      -->
     <img
-      class = "UGA-Hacks"
-      src = "landing_page/logo_horizontal.svg"
-      alt = "UGA HACKS"
-      height = 75px;
+      class = "table-dudes"
+      src = "landing_page/greyscale_image2.jpg"
     />
-    <h2 class = "date">Feb. 9th-11th, 2018  Location TBA</h2>
-    <h3 class = "killer-team">It's amazing what you can make with a killer team and a table.</h3>
-    <p class = "welcome">Join UGA for it's 3rd annual Hackathon! This year is all about going back to the basics. Come find out what a hackathon is all about!</p>
+    <img
+      class = "red-logo"
+      src = "landing_page/logo_H.svg"
+    />
+    <div class = "front-page">
+      <img
+        class = "UGA-Hacks"
+        src = "landing_page/logo_horizontal.svg"
+        alt = "UGA HACKS"
+        height = 75px;
+      />
+      <h2 class = "date">Feb. 9th-11th, 2018  Location TBA</h2>
+      <h3 class = "killer-team">It's amazing what you can make with a killer team and a table.</h3>
+      <p class = "welcome">Join UGA for it's 3rd annual Hackathon! This year is all about going back to the basics. Come find out what a hackathon is all about!</p>
+      <a href=""><p class="register-now">REGISTER NOW</p></a>
+    </div>
     <hr class="party-line" width="20%" color="#ff000d" />
-    <a href=""><p class="register-now">REGISTER NOW</p></a>
 
-
-    <img
-      class="what-is-img"
-      src="landing_page/whatisahack_icons.svg"
-    />
-    <h3 class="what-is">What exactly is a hackathon?</h3>
-    <p class="hack-description">Hackathons are all about groups of dedicated people coming together at a workspace to create something awesome. The 36 hour hackaton is free and open to anyone.</p>
-    <hr class="grey-line" width="20%" color="#D3D3D3"/>
-    <p class="hack-description-2">It includes mentors, free food, video game competitions, social mixers and more. There's even mixers at the event for anyone that still needs to find some teammates!</p>
-
-    <h3 class="what-make">What do you make at a hackathon?</h3>
-    <p class="make-1">Hackathon creations usually revolve around technology. Hardware, programs, games, and apps are great choices, but these are only a few examples.</p>
-    <p class="make-2">At a hackathon, you can make anything you want. From projectors created out of trash, to exciting new apps, to wacky inventions... the possibilities are endless!</p>
-    <hr class="grey-line-2" width="20%" color="#D3D3D3"/>
-    <img
-      class="make-img"
-      src="landing_page/whatdoyoumake_icons.svg"
-    />
-
-    <h3 class="title">HACKS TIMELINE</h3>
-
-    <div class="timeline">
-      <h3 class="months">SEP</h3>
-      <h3 class="months">OCT</h3>
-      <h3 class="months">OCT</h3>
-      <h3 class="months">NOV</h3>
+    <!-- This section is a continuation of the about page
+      -->
+    <div class="flex-content-1">
+      <img
+        class="what-is-img"
+        src="landing_page/whatisahack_icons.svg"
+      />
+      <div class="what-is-a-hackathon">
+        <h3 class="what-is">What exactly is a hackathon?</h3>
+        <p class="hack-description">Hackathons are all about groups of dedicated people coming together at a workspace to create something awesome. The 36 hour hackaton is free and open to anyone.</p>
+        <hr class="grey-line" width="20%" color="#D3D3D3"/>
+        <p class="hack-description-2">It includes mentors, free food, video game competitions, social mixers and more. There's even mixers at the event for anyone that still needs to find some teammates!</p>
+      </div>
     </div>
-    <div class="timeline2">
-      <h3 class="day">29</h3>
-      <h3 class="day">25</h3>
-      <h3 class="day">26</h3>
-      <h3 class="day">04</h3>
-    </div>
-    <div class="timeline-info">
-      <h3 class="info">Applications Open</h3>
-      <h3 class="info">Applications Close</h3>
-      <h3 class="info">Decisions Reached</h3>
-      <h3 class="info">Hackathon Begins</h3>
+    <div class="flex-content-2">
+      <div class="what-make-hackathon">
+        <h3 class="what-make">What do you make at a hackathon?</h3>
+        <p class="make-1">Hackathon creations usually revolve around technology. Hardware, programs, games, and apps are great choices, but these are only a few examples.</p>
+        <p class="make-2">At a hackathon, you can make anything you want. From projectors created out of trash, to exciting new apps, to wacky inventions... the possibilities are endless!</p>
+        <hr class="grey-line-2" width="20%" color="#D3D3D3"/>
+      </div>
+      <img
+        class="make-img"
+        src="landing_page/whatdoyoumake_icons.svg"
+      />
     </div>
 
-    <hr class="timeline-line-1" color="#ff000d"/>
-    <hr class="timeline-line-2" color="#ff000d"/>
-    <hr class="timeline-line-3" color="#ff000d"/>
-    <hr class="timeline-line-4" color="#ff000d"/>
-    <hr class="timeline-line-5" color="#ff000d"/>
-
-    <img
-      class="hacks-people"
-      src="landing_page/hacks-people.jpg"
-    />
+    <div id=schedule-scroll></div>
+    <div class=timeline-container>
+      <h3 class="timeline-title">HACKS TIMELINE</h3>
+      <div class="timeline">
+        <h3 class="months">SEP</h3>
+        <h3 class="months">OCT</h3>
+        <h3 class="months">OCT</h3>
+        <h3 class="months">NOV</h3>
+      </div>
+      <div class="timeline2">
+        <hr class="timeline-line" color="#ff000d"/>
+        <h3 class="day">29</h3>
+        <hr class="timeline-line" color="#ff000d"/>
+        <h3 class="day">25</h3>
+        <hr class="timeline-line" color="#ff000d"/>
+        <h3 class="day">26</h3>
+        <hr class="timeline-line" color="#ff000d"/>
+        <h3 class="day">04</h3>
+        <hr class="timeline-line" color="#ff000d"/>
+      </div>
+      <div class="timeline-info">
+        <h3 class="info">Applications Open</h3>
+        <h3 class="info">Applications Close</h3>
+        <h3 class="info">Decisions Reached</h3>
+        <h3 class="info">Hackathon Begins</h3>
+      </div>
+    </div>
+    <!-- This section is for a schedule
+      <hr class="timeline-line-1" color="#ff000d"/>
+      <hr class="timeline-line-2" color="#ff000d"/>
+      <hr class="timeline-line-3" color="#ff000d"/>
+      <hr class="timeline-line-4" color="#ff000d"/>
+      <hr class="timeline-line-5" color="#ff000d"/>
+    -->
     <p class="TBA">Full hackathon schedule to be anounced.</p>
 
     <h3 id="schedule-title" class="title">HACKS SCHEDULE</h3>
@@ -104,15 +131,14 @@
       <tr><td class="time">00 AM</td><td>Lorem ipsum lorem</td><td class="time">00 AM</td><td>Lorem ipsum lorem</td><td class="time">00 AM</td><td>Lorem ipsum lorem</td></tr>
       <tr><td class="time">00 AM</td><td>Lorem ipsum lorem</td><td class="time">00 AM</td><td>Lorem ipsum lorem</td><td class="time">00 AM</td><td>Lorem ipsum lorem</td></tr>
     </table>
-
-    <!--
-    <img
-      class="quetion-mark"
-      src="landing_page/questionmark.svg"
-    />
-  -->
-
-    <h3 class="title">FAQ</h3>
+    <div class="FAQ-header" id="FAQ-header">
+      <hr class="FAQ-line" color="#ff000d"/>
+      <img
+        class="question-mark"
+        src="landing_page/question-mark.svg"
+      />
+      <hr class="FAQ-line" color="#ff000d"/>
+    </div>
     <!--This is the FAQ-->
     <h3 class="question">Who is eligible to join?</h3>
     <p class="answer">All university students! We welcome all undergraduates and graduate students to attend. Professionals and other guests are welcome to attend as mentors/volunteers.</p>
@@ -145,20 +171,27 @@
       <h3 class="question">I have more questions!</h3>
       <p class="answer">We'd love to answer them. Feel free to drop us an email at hello@ugahacks.com.</p>
     </div>
-    <hr class="see-more-line" id="line" color="#ff000d"/>
-    <p class="expand" id="expand">SEE MORE</p>
+    <div class="see-more">
+      <hr class="see-more-line" color="#ff000d"/>
+      <p class="expand" id="expand">SEE MORE</p>
+      <hr class="see-more-line" color="#ff000d"/>
+    </div>
 
-    <h3 class="title">SPONSORS</h3>
+    <div>
+    <h3 class="title" id="partners">PARTNERS</h3>
 
-    <img
-      class="sponsor-image"
-      src="landing_page/hacks-sponsor.jpg"
-    />
-
-    <h3 class="sponsor-title">Interested in sponsoring UGA Hacks?</h3>
-    <p class="sponsor-info">By sponsoring UGAHacks, your company can have an opportunity to inspire new programmers while also reaching out to and recruiting the rising stars of the tech world. Please reach out to our sponsor chair for more information.</p>
-    <h3 class="sponsor-email">sponsor@ugahacks.com</h3>
-
+    <div class="sponsor-flex">
+      <img
+        class="sponsor-image"
+        src="landing_page/hacks-sponsor.jpg"
+      />
+      <div class="sponsor-description">
+        <h3 class="sponsor-title">Interested in sponsoring UGA Hacks?</h3>
+        <p class="sponsor-info">By sponsoring UGAHacks, your company can have an opportunity to inspire new programmers while also reaching out to and recruiting the rising stars of the tech world. Please reach out to our sponsor chair for more information.</p>
+        <a href=sponsorship_package.pdf><h3 class="sponsor-packet">Sponsor Packet PDF</h3></a>
+        <h3 class="sponsor-email">sponsor@ugahacks.com</h3>
+      </div>
+    </div>
     <div class = footer></div>
     <script src="UGAhacksScript2.js"></script>
   </body>
